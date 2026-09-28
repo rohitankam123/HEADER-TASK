@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111111;
+}
+
+/* Top Bar */
+
+.top-bar {
+    height: 45px;
+
+    background-color: #111111;
+    color: white;
+
+    padding: 0 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 13px;
+}
+
+/* Main Header */
+
+.main-header {
+    height: 220px;
+
+    padding: 25px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+        ),
+        url("assets/gym.png");
+
+    background-size: cover;
+    background-position: center;
+}
+
+/* Logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-box {
+    width: 55px;
+    height: 55px;
+
+    background-color: #e10600;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 19px;
+    font-weight: bold;
+
+    margin-right: 12px;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 27px;
+}
+
+.logo h1 span {
+    color: #e10600;
+}
+
+.logo p {
+    color: #dddddd;
+
+    font-size: 11px;
+    letter-spacing: 4px;
+
+    margin-top: 4px;
+}
+
+/* Navigation */
+
+nav {
+    width: 600px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.55);
+
+    padding: 13px 20px;
+
+    border-radius: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #e10600;
+}
+
+/* Join Button */
+
+.join-button {
+    background-color: #e10600;
+    color: white;
+
+    text-decoration: none;
+
+    padding: 14px 22px;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.join-button:hover {
+    background-color: white;
+    color: #e10600;
+}
+
+/* Workout Bar */
+
+.workout-bar {
+    height: 70px;
+
+    background-color: #e10600;
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    text-align: center;
+}
+
+.workout-bar h3 {
+    font-size: 16px;
+}
+
+.workout-bar p {
+    font-size: 11px;
+
+    margin-top: 4px;
+}
