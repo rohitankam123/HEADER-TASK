@@ -506,3 +506,158 @@ nav a:hover {
         width: 100%;
     }
 }
+/* ------------------------------------ */
+
+/* Services Section */
+
+.services {
+    background-color: #111111;
+    color: white;
+
+    padding: 70px 50px;
+}
+
+
+/* Services Heading */
+
+.services-heading {
+    text-align: center;
+
+    margin-bottom: 45px;
+}
+
+.services-heading > p:first-child {
+    color: #e10600;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 10px;
+}
+
+.services-heading h2 {
+    font-size: 35px;
+
+    margin-bottom: 10px;
+}
+
+.services-heading h2 span {
+    color: #e10600;
+}
+
+.services-heading p:last-child {
+    color: #bbbbbb;
+
+    font-size: 15px;
+}
+
+
+/* Service Container */
+
+.service-container {
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 25px;
+}
+
+
+/* Service Card */
+
+.service-card {
+    width: 31%;
+
+    min-width: 280px;
+
+    background-color: #1c1c1c;
+
+    border: 1px solid #333333;
+
+    border-top: 3px solid #e10600;
+
+    border-radius: 8px;
+
+    padding: 30px 25px;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+
+/* Service Icon */
+
+.service-icon {
+    font-size: 35px;
+
+    margin-bottom: 15px;
+}
+
+
+/* Service Title */
+
+.service-card h3 {
+    font-size: 20px;
+
+    margin-bottom: 12px;
+}
+
+
+/* Service Description */
+
+.service-card p {
+    color: #bbbbbb;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+/* Hover Effect */
+
+.service-card:hover {
+    transform: translateY(-8px);
+
+    border-color: #e10600;
+
+    box-shadow: 0 10px 25px rgba(225, 6, 0, 0.2);
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .service-card {
+        width: 45%;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .services {
+        padding: 50px 20px;
+    }
+
+    .service-card {
+        width: 100%;
+    }
+
+    .services-heading h2 {
+        font-size: 28px;
+    }
+
+}
