@@ -661,3 +661,177 @@ nav a:hover {
     }
 
 }
+
+/* Testimonial Section */
+
+.testimonials {
+    background-color: #111111;
+
+    color: white;
+
+    padding: 40px 50px 70px;
+}
+
+
+/* Testimonial Heading */
+
+.testimonial-heading {
+    text-align: center;
+
+    margin-bottom: 45px;
+}
+
+.testimonial-heading > p:first-child {
+    color: #e10600;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 10px;
+}
+
+.testimonial-heading h2 {
+    font-size: 35px;
+
+    margin-bottom: 10px;
+}
+
+.testimonial-heading h2 span {
+    color: #e10600;
+}
+
+.testimonial-heading p:last-child {
+    color: #bbbbbb;
+
+    font-size: 15px;
+}
+
+
+/* Testimonial Container */
+
+.testimonial-container {
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 25px;
+}
+
+
+/* Testimonial Card */
+
+.testimonial-card {
+    width: 31%;
+
+    min-width: 280px;
+
+    background-color: #1c1c1c;
+
+    border: 1px solid #333333;
+
+    border-top: 3px solid #e10600;
+
+    border-radius: 8px;
+
+    padding: 30px 25px;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+
+/* Quote Icon */
+
+.testimonial-icon {
+    color: #e10600;
+
+    font-size: 45px;
+
+    font-weight: bold;
+
+    line-height: 1;
+
+    margin-bottom: 15px;
+}
+
+
+/* Testimonial Text */
+
+.testimonial-text {
+    color: #dddddd;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+    margin-bottom: 20px;
+}
+
+
+/* Member Name */
+
+.testimonial-card h3 {
+    font-size: 18px;
+
+    margin-bottom: 6px;
+}
+
+
+/* Member Role */
+
+.member-role {
+    color: #e10600;
+
+    font-size: 12px;
+
+    font-weight: bold;
+}
+
+
+/* Hover Effect */
+
+.testimonial-card:hover {
+    transform: translateY(-8px);
+
+    border-color: #e10600;
+
+    box-shadow: 0 10px 25px rgba(225, 6, 0, 0.2);
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .testimonial-card {
+        width: 45%;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .testimonials {
+        padding: 50px 20px;
+    }
+
+    .testimonial-card {
+        width: 100%;
+    }
+
+    .testimonial-heading h2 {
+        font-size: 28px;
+    }
+
+}
