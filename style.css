@@ -835,3 +835,250 @@ nav a:hover {
     }
 
 }
+
+
+/* -----------------FORM SECTION ------------------ */
+
+.form-section {
+    background-color: #111111;
+
+    color: white;
+
+    padding: 60px 50px 70px;
+}
+
+
+/* Form Heading */
+
+.form-heading {
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+
+.form-heading > p:first-child {
+    color: #e10600;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 10px;
+}
+
+.form-heading h2 {
+    font-size: 35px;
+
+    margin-bottom: 10px;
+}
+
+.form-heading h2 span {
+    color: #e10600;
+}
+
+.form-heading p:last-child {
+    color: #bbbbbb;
+
+    font-size: 15px;
+}
+
+
+/* Form Container */
+
+.form-container {
+    max-width: 1000px;
+
+    margin: auto;
+
+    display: flex;
+
+    gap: 40px;
+
+    background-color: #1c1c1c;
+
+    padding: 40px;
+
+    border: 1px solid #333333;
+
+    border-radius: 8px;
+}
+
+
+/* Form Information */
+
+.form-info {
+    width: 40%;
+
+    padding: 20px;
+}
+
+.form-info h3 {
+    font-size: 24px;
+
+    margin-bottom: 15px;
+}
+
+.form-info > p {
+    color: #bbbbbb;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+    margin-bottom: 25px;
+}
+
+
+/* Form Benefits */
+
+.form-benefit {
+    color: #dddddd;
+
+    font-size: 14px;
+
+    margin-bottom: 18px;
+}
+
+.form-benefit span {
+    color: #e10600;
+
+    font-weight: bold;
+
+    margin-right: 10px;
+}
+
+
+/* Fitness Form */
+
+.fitness-form {
+    width: 60%;
+}
+
+
+/* Input Group */
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+
+    color: white;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    margin-bottom: 7px;
+}
+
+
+/* Input, Select and Textarea */
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+    width: 100%;
+
+    padding: 12px;
+
+    background-color: #111111;
+
+    color: white;
+
+    border: 1px solid #444444;
+
+    border-radius: 5px;
+
+    font-size: 14px;
+
+    outline: none;
+}
+
+
+/* Focus Effect */
+
+.input-group input:focus,
+.input-group select:focus,
+.input-group textarea:focus {
+    border-color: #e10600;
+}
+
+
+/* Textarea */
+
+.input-group textarea {
+    resize: vertical;
+}
+
+
+/* Submit Button */
+
+.submit-button {
+    width: 100%;
+
+    padding: 14px;
+
+    background-color: #e10600;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+/* Button Hover */
+
+.submit-button:hover {
+    background-color: white;
+
+    color: #e10600;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .form-section {
+        padding: 50px 20px;
+    }
+
+    .form-container {
+        flex-direction: column;
+
+        padding: 25px;
+    }
+
+    .form-info,
+    .fitness-form {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .form-heading h2 {
+        font-size: 28px;
+    }
+
+    .form-container {
+        padding: 20px;
+    }
+
+}
